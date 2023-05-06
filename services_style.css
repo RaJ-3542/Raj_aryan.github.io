@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #031321;
+    
+}
+
+.hbutton{
+    width: 30px;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.parent_class{
+    height: 82vh;
+    width: 98vw;
+    position: relative;
+}
+a{
+    position: relative;
+    display: inline-block;
+    padding: 2%;
+    color: #2196f3;
+    text-transform: unset;
+    overflow: hidden;
+    transition: 0.2s;
+
+
+}
+a:hover
+{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 1px #2196f3, 0 0 4px #2196f3, 0 0 8px #2196f3;
+    transition-delay: 0.5s;
+}
